@@ -1,0 +1,342 @@
+* {
+    padding: 3px;
+    
+}
+body {
+    background-image: url("img/fondo00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment: fixed;   
+}
+h3{
+    font-family: 'Titillium Web';
+    font-size: 2.1em;
+    text-shadow:rgba(9, 255, 0, 0.808)0.1em 0.1em 0.2em;
+    
+}
+
+p{
+    font-family: 'Libre Caslon Text';
+    font-size: 1.2em;
+    text-shadow: rgb(255, 230, 0) 0.2em 0.2em 0.3em;
+}
+
+header {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    min-height: 15vh;
+    border-radius: 1;
+    border-bottom: 8px;
+    margin-bottom: -32px;
+}
+
+.logos{
+    width: 40px;
+    height: 40px;
+}
+
+
+nav {
+    background-image: url("img/fondo00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment: fixed;  
+
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #2a25253a;
+}
+
+.nav-link {
+  padding: 1px;
+}
+
+#descripcion{
+    
+    background-color: #00000044;
+    min-height: 10vh;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    
+}   
+
+.cara {
+    display: flex;
+    height: 250px;
+    width: auto;
+    padding: 4px;
+    justify-content: center;
+    border-color: beige;
+    border: 10px;
+}
+.container-fluid img{
+    border-radius: 30px;
+    border-color: beige;
+}
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    width: 150px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;  
+    color:rgb(247, 247, 247);
+    background-color:rgba(253, 194, 0, 0.733);
+    transition: .3s  ease all;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.efecto-boton::after {
+    content: "";
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 50px);
+    border-bottom: 80px solid rgba(9, 255, 0, 0.808);
+    border-right: 50xp solid transparent;
+    transition: .6s ease-in-out all;
+
+}
+
+.efecto-boton:hover::after {
+    left: 0;
+}
+
+.edu {
+background-color: rgb(83, 83, 83);
+min-height: 20vh;
+padding: 10px;
+color: white;
+display: flex;
+border-radius: 10px;
+display: none;
+margin: 3px;
+
+}
+
+#foto-edu{
+    float: left;
+    border-radius: 40px;
+    width: 180px;
+    height: 180px;
+    justify-content: left;
+    display: flex;
+    
+}
+
+ul.lista-educacion {
+    list-style: none;
+    display: list-item;
+}
+
+li.lista::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/1008917.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif; 
+    margin-left: 25px;
+    
+}
+.exp {
+    background-color: rgb(83, 83, 83);
+    min-height: 34vh;
+    padding: 10px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    display: none;
+    margin: 3px;
+}
+
+#foto-exp{
+    float: left;
+    border-radius: 40px;
+    width: 180px;
+    height: 180px;
+    justify-content: left;
+    display: flex;
+}
+ul.lista-exp {
+    list-style: none;
+    display: list-item;
+}
+
+li.lista-exp::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/9262320.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif; 
+    margin-left: 25px;
+}
+
+.pro {
+    background-color: rgb(83, 83, 83);
+    min-height: 33vh;
+    padding: 10px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    margin: 3px;
+    display: none;
+}
+
+ul.lista-proyecto {
+    list-style: none;
+    display: list-item;
+}
+#foto-pro{
+    float: left;
+    border-radius: 40px;
+    width: 180px;
+    height: 180px;
+    justify-content: left;
+    display: flex;
+}
+
+ul.lista-pro {
+    list-style: none;
+    display: list-item;
+}
+
+li.lista-pro::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/753344.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif; 
+    margin-left: 25px;
+}
+footer{ 
+    background-color:rgba(253, 194, 0, 0.733);
+    border-radius: 10px;
+
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+
+}
+.foot-jorge{
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    text-shadow: rgb(7, 7, 7) 0.2em 0.2em 0.3em;
+
+}
+
+@media (max-width: 773px) {
+     .cara {
+        height: 180px;
+     }
+     h3{
+        font-size: 1.5em;  
+    }   
+    p{
+        font-size: 1em;
+    }
+    button{
+        font-size: 15px;
+ }
+    .foot-jorge{
+        font-size: 15px;
+}
+    .logos{
+        width: 27px;
+        height: 27px;
+    }
+    header {
+        margin-bottom: -45px;
+    }
+
+    #foto-edu {
+        float:none;
+        width: 110px;
+        height: 110px;
+        margin: auto;
+        border-radius: 20px;
+}
+
+    ul.lista-educacion {
+        font-size: 9px;
+        margin: 0px;
+        padding-left: 2px;
+    } 
+    #foto-exp {
+        float:none;
+        width: 110px;
+        height: 110px;
+        margin: auto;
+        border-radius: 20px;
+}
+.exp{
+    min-height: 23vh;
+}
+    ul.lista-experiencia {
+        font-size: 9px;
+        margin: 0px;
+        padding-left: 2px;
+    } 
+    #foto-pro {
+        float:none;
+        width: 110px;
+        height: 110px;
+        margin: auto;
+        border-radius: 20px;
+        
+}
+.pro{
+    min-height: 23vh
+}
+
+    ul.lista-proyecto {
+        font-size: 9px;
+        margin: 0px;
+        padding-left: 2px;
+    } 
+}
