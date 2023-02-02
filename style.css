@@ -321,7 +321,9 @@ footer .container{
         font-size: 9px;
         margin: 0px;
         padding-left: 2px;
-    } 
+        list-style: none;
+} 
+
     #foto-pro {
         float:none;
         width: 110px;
@@ -339,4 +341,9 @@ footer .container{
         margin: 0px;
         padding-left: 2px;
     } 
+
+    .navbar-brand{
+        font-size: 17px;
+    
+    }
 }
