@@ -2,6 +2,7 @@
     padding: 3px;
     
 }
+
 body {
     background-image: url("img/fondo00.jpg");
     background-repeat: no-repeat;
@@ -12,14 +13,14 @@ body {
 h3{
     font-family: 'Titillium Web';
     font-size: 2.1em;
-    text-shadow:rgba(9, 255, 0, 0.808)0.1em 0.1em 0.2em;
+    text-shadow:rgba(255, 0, 0, 0.808)0.1em 0.1em 0.2em;
     
 }
 
 p{
     font-family: 'Libre Caslon Text';
     font-size: 1.2em;
-    text-shadow: rgb(255, 230, 0) 0.2em 0.2em 0.3em;
+    text-shadow: rgb(0, 17, 255) 0.2em 0.2em 0.3em;
 }
 
 header {
@@ -69,12 +70,12 @@ nav {
 
 .cara {
     display: flex;
-    height: 250px;
+    height: 280px;
     width: auto;
     padding: 4px;
     justify-content: center;
     border-color: beige;
-    border: 10px;
+    border: 5px;
 }
 .container-fluid img{
     border-radius: 30px;
@@ -277,7 +278,7 @@ footer .container{
 
 @media (max-width: 773px) {
      .cara {
-        height: 180px;
+        height: 200px;
      }
      h3{
         font-size: 1.5em;  
